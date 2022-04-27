@@ -9,7 +9,7 @@
 import os
 
 # Funções
-def checkOrder(vector: list) -> None:
+def checkOrder(vector:list) -> None:
     print("ORDENADO" if vector == sorted(vector) else "DESORDENADO")
 
 def main() -> None:  # sourcery skip: for-append-to-extend
